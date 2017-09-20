@@ -19,9 +19,7 @@ arithmetic.subtract = function (a,b) {
 // Private Methods (helper functions)
 
 function validArguments(...args) {
-    
     return (args.length >= 2 && allValuesNumeric(args)) || false;
-    
 }
 
 function allValuesNumeric(args) { 

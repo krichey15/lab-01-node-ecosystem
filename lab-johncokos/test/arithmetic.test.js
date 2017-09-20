@@ -7,21 +7,21 @@ describe("Arithmetic", function() {
     
     describe("addition", function() {
         
-        it("properly handles a string", function() {
+        it("returns null when one of the arguments is a string", function() {
             
             let result = arithmetic.add("foo",4);
             expect(result).toBe(null);
             
         });
         
-        it("properly handles an object", function() {
+        it("returns null when one of the arguments is an object", function() {
             
             let result = arithmetic.add({},4);
             expect(result).toBe(null);
             
         });        
         
-        it("properly handles an array", function() {
+        it("returns null when one of the arguments is an array", function() {
             
             let result = arithmetic.add([],4);
             expect(result).toBe(null);
@@ -46,21 +46,21 @@ describe("Arithmetic", function() {
     
     describe("subtraction", function() {
         
-        it("properly handles a string", function() {
+        it("returns null when one of the arguments is a string", function() {
             
             let result = arithmetic.subtract("foo",4);
             expect(result).toBe(null);
             
         });
         
-        it("properly handles an object", function() {
+        it("returns null when one of the arguments is an object", function() {
             
             let result = arithmetic.subtract({},4);
             expect(result).toBe(null);
             
         });        
         
-        it("properly handles an array", function() {
+        it("returns null when one of the arguments is an array", function() {
             
             let result = arithmetic.subtract([],4);
             expect(result).toBe(null);
