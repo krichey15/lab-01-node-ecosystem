@@ -1,12 +1,7 @@
 'use strict';
 
-console.log("Test");
-
-module.exports = function(name) {
-    return foo() + name;
+module.exports = (name) => {
+    
+    return typeof name === "string" ? `Hello ${name}` : null;
+    
 };
-
-
-function foo() {
-    return "HI ";
-}
