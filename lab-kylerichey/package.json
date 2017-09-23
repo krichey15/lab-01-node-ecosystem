@@ -1,0 +1,26 @@
+{
+  "name": "lab-kylerichey",
+  "version": "0.0.1",
+  "description": "Lab 01 Node Ecosystem",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krichey15/lab-01-node-ecosystem.git"
+  },
+  "author": "richey.kyle.i@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^21.1.0",
+    "mocha": "^3.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/krichey15/lab-01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/krichey15/lab-01-node-ecosystem#readme"
+}
