@@ -2,7 +2,7 @@
 
 module.exports = (name) => {
   if (typeof name === 'string'){
-    return 'Hello' + name;
+    return 'Hello ' + name;
   } else {
     return null;
   }
