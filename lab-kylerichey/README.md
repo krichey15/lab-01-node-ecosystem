@@ -22,3 +22,7 @@ arithmetic.add(num1, num2);
 arithmetic.subtract(num1, num2);
 
  - As long as both arguments are typeof number, this will subtract num2 from num1. Otherwise it returns null.
+
+
+
+All said it done this took me quite a while I worked for about 3 hours trying to understand the concepts i missed because of a missed lecture day. 
