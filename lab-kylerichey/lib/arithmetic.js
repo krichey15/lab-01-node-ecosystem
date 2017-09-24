@@ -3,7 +3,7 @@
 let arithmetic = module.exports = {};
 
 arithmetic.add = function (num1, num2) {
-  if (typeof num1 || typeof num2 === 'number'){
+  if (typeof num1 == 'number' && typeof num2 == 'number'){
     return num1 + num2;
   } else {
     return null;
@@ -11,7 +11,7 @@ arithmetic.add = function (num1, num2) {
 };
 
 arithmetic.subtract = function (num1, num2) {
-  if (typeof num1 || typeof num2 == 'number'){
+  if (typeof num1 == 'number' && typeof num2 == 'number'){
     return num1 - num2;
   } else {
     return null;
