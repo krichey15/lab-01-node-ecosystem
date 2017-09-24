@@ -4,8 +4,8 @@ greet(string);
 
  - Has an airty of 1
  - Takes in a string.
- - Returns "Hello " + (string)
- - Returns null of input is not a string.
+ - Returns "Hello " + string
+ - Returns null if input is not a string.
 
 ----------
 
