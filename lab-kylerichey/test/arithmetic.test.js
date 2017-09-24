@@ -21,7 +21,7 @@ describe('arithmetic', function(){
 
   it('returns null if either number is NaN', function(){
 
-    let result = arithmetic.subtract('6', 5);
+    let result = arithmetic.subtract('six', 5);
     expect(result).toBe(null);
 
   });
