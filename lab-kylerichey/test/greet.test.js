@@ -1,7 +1,7 @@
 'use strict';
 
 const expect = require('expect');
-const greet = require(__dirname + '/lib/greet.js');
+const greet = require('../lib/greet.js');
 
 describe('greet', function (){
 

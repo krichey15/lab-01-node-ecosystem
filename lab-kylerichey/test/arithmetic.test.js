@@ -1,6 +1,6 @@
 'use strict';
 
-const arithmetic = require(__dirname + '/lib/arithmetic.js');
+const arithmetic = require('../lib/arithmetic.js');
 const expect = require('expect');
 
 describe('arithmetic', function(){

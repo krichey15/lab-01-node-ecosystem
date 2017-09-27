@@ -1,7 +1,7 @@
 'use strict';
 
-const greet = require(__dirname + '/lib/greet.js');
-const arithmetic = require(__dirname + '/lib/arithmetic.js');
+const greet = require('./lib/greet.js');
+const arithmetic = require('./lib/arithmetic.js');
 
 console.log(greet('Kyle'));
 console.log(greet());
