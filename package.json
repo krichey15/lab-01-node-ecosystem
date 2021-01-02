@@ -1,0 +1,23 @@
+{
+  "name": "lab-01-node-ecosystem",
+  "version": "0.0.1",
+  "description": "I'm Learning!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krichey15/lab-01-node-ecosystem.git"
+  },
+  "author": "kyle@kyle-richey.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krichey15/lab-01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/krichey15/lab-01-node-ecosystem#readme",
+  "devDependencies": {
+    "expect": "^26.6.2",
+    "mocha": "^8.2.1"
+  }
+}
